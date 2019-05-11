@@ -8,4 +8,4 @@ The TSIS-CORSIM (Traffic Software Integrated System – Corridor Simulation) is 
 
 I coded a program to extract the full information about vehicles from file TSD (below version 6.1) and TS0 (version 6.2 and upper), derived from Sudheer Dhulipala [2012] thesis, Faculty of the Virginia Polytechnic Institute. <[Thesis](https://vtechworks.lib.vt.edu/handle/10919/33426)> 
 
-The program on C++ and a version in Python is coming.
+The program was coded in C++. The Python version is coming.
