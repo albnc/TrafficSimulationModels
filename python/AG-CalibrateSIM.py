@@ -32,17 +32,17 @@ class GA:
 
     def setPopulation(self, params, goal):
         """ setupPopulation(params, goal)
-        - params    : range of each parameter as a list of possible values [[min_value, max_value]]
+        - params    : range of each parameter as a list of possible values [[minValue, maxValue]]
         - goal      : the output results that the GA will be achieve as a list of values
         """
         self.params = params
         # create new population
         self.population = np.array([])
+        # Generate the random parameters
         mpop = np.random.rand(self.nindv, len(params))
-        mpop = params_minmax.T[0] + (mpop * (params.T[1] - params.T[0]))
-        for i in mpop:
-            self.pop
-
+        mpop = params.T[0] + (mpop * (params.T[1] - params.T[0]))
+        if params[0][0].is_integer()
+        
 
         # setup the goal to achieve
         self.goal = goal
